@@ -1,5 +1,19 @@
+
+
+## video and image tools 
+- script to voice elevenlabs
+- heygen image to video
+- cobalt tools download youtube and insta video 
+- audio alter lofi or 3d audio, remove voice 
+- fuel co - video editing - arrow animation, background gradients, texture, video assets
+- adobe express ai video Designm ai tools. image gen..remove objects .. generate thumbnail (generate template) . insert object into image. select area. .remove objects...  
+
+
+## presentation tools
+
 Tool 	Best For	Core Function
-Napkin AI	Visuals/Infographics	Text-to-diagrams (flowcharts, charts)
+Napkin AI	Visuals/Infographics	Text-to-diagrams 
+(flowcharts, charts)
 Tome	Storytelling/Pitches	Full AI-generated decks & narratives
 Yoodli	Presentation Practice	AI speech coaching & feedback
 Play.ht	Voiceover/Narration	Ultra-realistic Text-to-Speech (TTS)
