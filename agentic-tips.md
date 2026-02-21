@@ -39,3 +39,24 @@ Save the generated image and return it
 
 with suggested ad
 ```
+
+
+- finance analysis 
+
+```
+Build a Python financial analysis tool usingy yfinance and cryptocompare libraries to fetch real-time market data. Create functions to:
+
+1) Get top gainers/losers for crypto and stocks,
+
+2) Fetch historical price data and calculate technical indicators (RSI, MACD, moving averages) using pandas_ta,
+
+3) Gather news sentiment using newsapi
+
+4) Send all data to Claude API with prompt: \
+
+'Analyze this asset considering technical signals, sentiment data, and historical patterns. Provide buy/hold/sell recommendation with confidence level and reasoning. Include
+
+risk
+```
+
+
