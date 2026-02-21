@@ -75,4 +75,26 @@ reasoning
 ```
 
 
+## claude artifacts
+- organize content. 
+- folders for work to referenced and intereate later
+- deployeable code
+- html pages
+- deployeable artifacts 
+- example prompt 
+```
+create an interactive content calendar for February 2026 where a user can click on a date and add a new post title, choose a department, and then save that information to that calendar. We have three departments: marketing, sales, and product. We want each department to have a different colour in the calendar so posts are easy to identify at a glance. Also ensure that the title text fits within each tile and then each tile has the same width and height. Use the entire page width and height and ensure that there is no white space between the dates, just a small border between tiles.
+
+Also create a few example entries so that we can see something that looks like a functional calendar similar to that of Google Calendar.
+```
+
+
+
+or
+
+```
+Create an interactive content calendar for November 2026, where a user can click on a date, add a new post title, choose a department, and then save that information to the calendar.
+```
+
+
 
