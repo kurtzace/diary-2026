@@ -1,5 +1,35 @@
 
 
+## content tools 
+- scalenut: outline, high performance keywords, seo content . ai article writer. flow, heading . readability. keyword density, bloggers, seo ready . 
+### le chat : mistral ai 
+ - youtube story
+- blog writing 
+- reasearch idea
+- rewrite and improve 
+- 
+
+
+### copy ai
+_ personal writing assistant 
+- choose tone
+- youtube story, cta
+- gen blogs under 1500 . buying guides. 
+
+
+### jasper ai
+- advanced for long form blogs, product description, faster, consistent, brand voice, writing style, 
+- write an email.
+- youtube script 
+- reel script 
+- ad copy 
+- email marketing
+- brand style - upload our writing style 
+
+
+
+
+
 ## video and image tools 
 - script to voice elevenlabs
 - heygen image to video
