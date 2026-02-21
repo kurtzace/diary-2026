@@ -24,3 +24,18 @@ Create a Python script using Gmail API that analyzes my inbox. The script should
 ..increase seo.. review sites 
 . optimization report..
 
+
+```
+
+Build a Node.js application that takes a product page URL as input.
+
+Use Puppeteer to scrape the page for product images, descriptions, and key features.
+
+Send this data to DALL-E 3 or Midjourney API with a prompt like:
+
+'Create a vibrant Facebook ad image showcasing [product name] with emphasis on [key features]. Style should be modern, eye-catching, and professional with clear product focus.' 8
+
+Save the generated image and return it
+
+with suggested ad
+```
