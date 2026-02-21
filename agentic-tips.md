@@ -59,4 +59,20 @@ Build a Python financial analysis tool usingy yfinance and cryptocompare librari
 risk
 ```
 
+- shopping 
+
+```
+
+Build a Python web scraper using BeautifulSoup and requests that searches Amazon for products based on user criteria (category, price range, brand preferences, delivery speed).
+
+Extract product data including: name, price, rating, number of reviews, Prime eligibility, and delivery estimate.
+
+Use Claude API to analyze the scraped data and provide a recommendation: 4
+
+'Based on these products, recommend the best option considering value, reviews, delivery speed, and reliability. Explain your
+
+reasoning
+```
+
+
 
