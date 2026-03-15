@@ -185,4 +185,26 @@ Increase allocation to defense/energy (geo winners) and capex plays (budget winn
 
 **However, for your long-term growth-oriented rebalanced portfolio**: Yes, start selective buying on dips now. Quality stocks (your keepers + suggested adds) are cheaper post-correction. Budget tailwinds + India growth story remain intact long-term. Avoid lump-sum whole market; stagger into strong sectors/stocks above. If tensions ease, quick recovery possible.
 
-This rebalanced setup should deliver high growth (defense/infra/renewable) + consistent returns (banks/FMCG/power) while being geo-resilient. Consult your advisor for tax/execution specifics – this is research-based guidance, not personalized advice. Track Nifty levels and oil prices closely in coming weeks. Let me know if you want deeper analysis on any specific stock or ETF!
+
+
+
+This rebalanced setup should deliver high growth (defense/infra/renewable) + consistent returns (banks/FMCG/power) while being geo-resilient. Consult your advisor for tax/execution specifics – this is research-based guidance, not personalized advice. 
+
+
+
+
+## TODO create alerts for SALES
+
+| #  | Stock             | LTP       | Target Price | % Above LTP |
+| -- | ----------------- | --------- | ------------ | ----------- |
+| 1  | KCP               | ₹141.25   | ₹205.00      | +45.1%      |
+| 2  | ASIANPAINT (SELL) | ₹2,196.80 | ₹3,030.00    | +37.9%      |
+| 3  | GATEWAY           | ₹53.85    | ₹72.00       | +33.7%      |
+| 4  | EQUITASBNK        | ₹56.40    | ₹75.00       | +33.0%      |
+| 5  | BEPL              | ₹85.60    | ₹114.00      | +33.2%      |
+| 6  | INOXINDIA         | ₹1,136.50 | ₹1,500.00    | +32.0%      |
+| 7  | MIDHANI           | ₹312.90   | ₹404.00      | +29.1%      |
+| 8  | IEX               | ₹120.25   | ₹155.00      | +28.9%      |
+| 9  | NCLIND            | ₹173.29   | ₹222.00      | +28.1%      |
+| 10 | RECLTD            | ₹331.50   | ₹415.00      | +25.2%      |
+| 11 | RVHL              | ₹36.50    | ₹43.88       | +20.2%      |
