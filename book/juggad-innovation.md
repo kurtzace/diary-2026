@@ -3,7 +3,7 @@
  by Navi Radjou jaydeep Prabhu and Sumona ahuja
 
 
-- seek opportunity in adversity (convert pot holes to give you acceleration and energy)
+- seek opportunity in adversity (convert pot holes to give you acceleration and energy, Tulsi tanti had a lot of energy issues while forming textile business so he created Suzlon wind energy)
 - do more with less ( agriculture and telecom equipment by leasing and by borrowing Sunil Mittal and -gustavo groboco Patel)
 - think and act flexibily (the secret to launching Tata Nano under 100000 and making Haier org flat)
 - keep it simple (ushihidi used SMS platform to co-ordinate response to natural calamities in Africa)
@@ -45,4 +45,26 @@ Stanford enterpreneur design for extreme afordability program.
 
 
 
+## adversity 
+infra challenges in bric countries. lack of talented labour shortage of financial resources capital, don't retreat into a shell but embrace this. 
+
+
+OP bhat of sbi - started Parivartan and after that SMS based customer complaint unit. 
+
+junco - thermo solar panels to Mexico hotels - Optima energy - he would do free of cost installation and recover the cost over 10 year period from the energy savings. 
+
+challenges to large firms 
+- erratic global economy 
+- regulations 
+- demography of age (developed countries )as well as eccessive people to employ (india)
+- social computing 
+- natural resources scarcity 
+- unforgiven competition from emergen markets 
+
+don't think small in case of adversity otherwise you may shutdown like borders Book Store..
+
+
+rather than relaying a newspaper and TV advertising doctor and gamble used vocal point and online community of mothers to launch Buzz in the media about upcoming products and shoulders of a coldest Remo to other firms 
+
+salesforce 
 
