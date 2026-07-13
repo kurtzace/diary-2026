@@ -66,7 +66,81 @@ don't think small in case of adversity otherwise you may shutdown like borders B
 
 rather than relaying a newspaper and TV advertising doctor and gamble used vocal point and online community of mothers to launch Buzz in the media about upcoming products and shoulders of a coldest Remo to other firms 
 
-salesforce 
+salesforce - affordable and accessible to more companies a cloud based solution for managing custom interactions 
+
+- build psychological capital to boost confidence & resilience 
+
+human optimism engagement confidence residency Hope 
+
+danone created new business models in bric. 15 inr lassi . including the bottom of the pyramid customers. 
+
+approaching new businesses with growth mindset and for example IBM closed the PC business.  
+
+TCS and operator data research design centre India's first dedicated RND 
+
+
+use the power of network TCS leveraged social web. 
+
+3M dedicates 15% of the time for innovation. they rolled back six Sigma. 
+
+
+
+Apple was marrying design with excellent engineering. 
+3M found innovative ways to reuse the tape for example pet hair remover. or precut strips 
+
+
+## do more with less 
+
+Grobocapatel paste labours shortage skill shortage and resource crunch 
+
+Sub contractoed labor and leverage medium size agricultural suppliers and meet his company asset light 
+
+Airtel also followed the same model they don't have much equipment of their own 
+
+Zhongxing medical borrow direct digital x-ray equipment from eating aerospace and rengineered for creating a low cost mass market application X-ray machine. 
+
+m Pesa was launched in Africa and SMS base service for transferring money. 
+
+micro ventures in Philippines leverage the bottom of the period 8 lakh moment of store sari sari network
+ - bulk purchasing could help them to negotiate 
+- mobile payments 
+- training the bottom of the pyramid 
+
+
+- help the customers to get more value for example kpit Cummins made a system plugiable model to make a normal car function like hybrid car revol u model. 
+
+- please charge material was used to keep the infants warm in a wax like material that keeps the babies warm for 6 hours and increased infant longevity kangaro care PCM pouch . 
+
+- increase RMD to make affordable products. and embrace the age of scarcity. measure the frugal performance - to check reduction of water use it, eliminate solid waste 
+
+Renault came up with the car that sells under 6000. 
+
+create diff brands for affordable products for example a law of an element was created by Sheraton and la meridian. 
+
+
+simply vera. clothing. 
+
+
+create incentive for sales people to sell affordable products 
+
+Godrej created Chotu line for Chotu cool as well as Chotu wash.
+
+general electrical made a product called the portable ACG machine 
+
+Nokia 1100 model with a flashlight to see in the dark. 
+
+
+partner extensively with educational networks day holder suppliers customer University venture capitalist think tanks 
+
+IIT Madras rural technology business incubator. 
+
+Pepsi - brands good for you like Quaker and tropicana as well as fun for you like Pepsi and lays as well as better for you with Pepsi Max and propels zero
+
+
+direct seeding reduces paddy water consumption which used to require 900 km of water per acre 
+
+## think act flexibly
+
 
 
 
