@@ -141,6 +141,13 @@ direct seeding reduces paddy water consumption which used to require 900 km of w
 
 ## think act flexibly
 
+Dr Mohan diabetic specialist started telemedicine not by taking expensive equipment like Nokia and ciscope insted partner with ISRO who launched a dozen of communication satellite so that the telemedic service could be used and he also trade the local youth for just enough knowledge to operate the equipment. 
+
+- they adapt to survive: for example the roads of India. 
 
 
+- they think the untkable for example Harish hande the founder of s e l c o solar electric company he tied up with the local entrepreneurs and try to start meeting his solar services at a very affordable rate that could be access by people who earned under 50 or day where you don't make up front investment and you only pay as you use. 
+
+
+- keep improvising like jazz orchestra. Tata Nano instead of starting in West Bengal they started in Gujarat instead after farmer revolt. and did not have executive at the showroom as people were intimidated 
 
