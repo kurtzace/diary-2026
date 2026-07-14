@@ -151,3 +151,4 @@ Dr Mohan diabetic specialist started telemedicine not by taking expensive equipm
 
 - keep improvising like jazz orchestra. Tata Nano instead of starting in West Bengal they started in Gujarat instead after farmer revolt. and did not have executive at the showroom as people were intimidated 
 
+- act speed and agility: they had extremely small management units that were independent. each one could act on the own will and autonomously make decisions for example they found out one farmer was washing potatoes in the machine so they improvise the machine instead of stopping the farmer. also release the washing machine that can watch without detergent. and always posed as a value for money applicance maker
