@@ -152,3 +152,28 @@ Dr Mohan diabetic specialist started telemedicine not by taking expensive equipm
 - keep improvising like jazz orchestra. Tata Nano instead of starting in West Bengal they started in Gujarat instead after farmer revolt. and did not have executive at the showroom as people were intimidated 
 
 - act speed and agility: they had extremely small management units that were independent. each one could act on the own will and autonomously make decisions for example they found out one farmer was washing potatoes in the machine so they improvise the machine instead of stopping the farmer. also release the washing machine that can watch without detergent. and always posed as a value for money applicance maker
+
+- have a growth mindset not fixed. do not stick to the winning formula. not a black and white world but a grey world. . fortune lies in the bottom of Pyramid. 
+
+- risk aversion: example kodak . Amazon also re invented themselves to have order fitting as well as Kindle division. don't have a reject proud of development process. htc Huawei,spice made good enough product within weeks. 
+
+- break and shift values when necessary. for example IBm surrender the PC business. embraced smart planet.
+
+- Google employees at 70 20 10 model. 20% on related projects and 10% on totally unrelated to core work. maps and Gmail was born this Way. 
+
+- partner with flexible thinkers. best buy used to partner with silicon valley startup and bring innovative products very early to the market. despite having research division ITM partners with Indian School of business 
+
+- experiment with innovative business model 
+
+- fail cheap sale fast fail often.. Google pulled away the plug on Google health and Google power metre as well as bestbuy pulled away from China before the losses became wide .
+
+
+- breakdown org silios to gain speed 
+
+
+- App Haus. to make design engineer and marketers work in Collab in sap. Charitra : ngo volunteer hours 
+
+nytc set up r&d Market to pick up on trends . other platforms. readers, social media. linked content to Google earth
+ to show location of news. thought of smart cars. Edge devices like tv, phone, cars, podcast 
+
+## keep it simple. 
