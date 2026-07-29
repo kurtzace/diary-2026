@@ -29,13 +29,18 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
-        with:
-          static_site_generator: none
+
+      - name: Prepare Pages content
+        run: |
+          mkdir -p _site
+          # Deploy jugaad slides to /jugaad-slides/ subdirectory
+          mkdir -p _site/jugaad-slides
+          cp -R book/juggad-slides/. _site/jugaad-slides/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'book/juggad-slides'
+          path: './_site'
 
       - name: Deploy to GitHub Pages
         id: deployment

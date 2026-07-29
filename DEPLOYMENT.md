@@ -13,6 +13,12 @@ The deployment is automated via GitHub Actions. The workflow file is located at:
 .github/workflows/deploy-jugaad-slides.yml
 ```
 
+**How it works:**
+- The workflow creates a `_site` directory
+- Copies jugaad-slides content to `_site/jugaad-slides/`
+- Deploys the entire `_site` folder to GitHub Pages
+- This ensures the slides are available at the `/jugaad-slides/` subdirectory path
+
 **Trigger:** The workflow automatically deploys when:
 - Changes are pushed to `main` or `master` branch
 - Changes affect `book/juggad-slides/**` files
@@ -38,7 +44,7 @@ git push origin main
 
 #### 2. Monitor Deployment
 - Go to repository **Actions** tab
-- Watch for `Deploy Jugaad Slides to GitHub Pages` workflow
+- Watch for `Deploy slides to GitHub Pages` workflow
 - Wait for status: ✅ Success
 
 #### 3. Access Live Presentation
