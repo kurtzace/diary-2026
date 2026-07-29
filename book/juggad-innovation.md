@@ -293,7 +293,55 @@ large company  view the marginal segments as unprofitable.
 
 -----
 
-handwritten notes 
+
+
+Hispanic buying power $ Itrillion dollar
+
+West banks setup CSR -Op Hope to include margin
+
+Emerging markets : Frugan inovators: Eg HTC, Haier Tata Nano
+
+Untelated Colrath: walmart Maney Centers
+
+Pay Near Me: 24% of Americar So amazon, greyhound don't have dedit 1.2 7 $
+
+Sociol Mindset not just business mind at CSR Gut
+
+Renault. Budget friendly Logan / Duster
+
+Inclusive wak culture Eg Thoughtworks includes Janitor toos in thought prea
+
+PLG, Gaing/ Eli Lily: hires at 65, Your Encore hires retired scientists
+
+Use tech like Cisco to moke inclusive
+
+things lice felemedicine
+
+Partner with NGO: Eg Microfinare Che
+
+
+
+C- level buy in to drive Healthy magination
+
+systemiz busmodel changes
+
+adopt/adapt practices from لعال : Text 4baby
+
+Scarcity, doversy
+
+interconectin
+
+VidaNet msg to HIV
+
+Indusne Design: Cambridge
+
+Eg walmart,
+
+Starford enterprenen o) forextreme afforabily Santa Clara Frugal innovatan Le
+
+Cardy Bounce
+
+Guide, Arm & Hammer dent brands Tided Gillete from P26
 
 ----
 
