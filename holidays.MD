@@ -1,23 +1,23 @@
-Ganesh Chaturthi	September 14, 2026	Monday
-Gandhi Jayanthi	October 2, 2026	Friday
-Dussera (Vijayadashami)	October 21, 2026	Wednesday
-Deepavali (Balipadyame)	November 10, 2026	Tuesday
+- Ganesh Chaturthi	September 14, 2026	Monday
+- Gandhi Jayanthi	October 2, 2026	Friday
+- Dussera (Vijayadashami)	October 21, 2026	Wednesday
+- Deepavali (Balipadyame)	November 10, 2026	Tuesday
 
 
 
 Day for Me.
 
-December 26, 2025
-February 16, 2026
-May 15, 2026
-September 25, 2026
-December 28, 2026
+- December 26, 2025
+- February 16, 2026
+- May 15, 2026
+- September 25, 2026
+- December 28, 2026
 
 
 ## Son's holidays
 
 - 26 August 2026	Wednesday	Holiday - Eid Milad
-- 28 August 2026	Friday	Holiday - Varamahalakshmi
+- 21 August 2026	Friday	Holiday - Varamahalakshmi
 - 04 September 2026	Friday	Holiday - Krishna Janmashtami
 - 14 September 2026	Monday	Holiday - Ganesh Chaturthi
 - 02 October 2026	Friday	Holiday - Gandhi Jayanti
@@ -44,19 +44,4 @@ December 28, 2026
 - 13 November 2026	Friday	Celebration - Children's Day
 - 23 November 2026 - 28 November 2026	Monday - Saturday	Event - 2 PTM
 - 22 December 2026	Tuesday	Celebration - Christmas
-
-Ganesh Chaturthi	September 14, 2026	Monday
-Gandhi Jayanthi	October 2, 2026	Friday
-Dussera (Vijayadashami)	October 21, 2026	Wednesday
-Deepavali (Balipadyame)	November 10, 2026	Tuesday
-
-
-
-Day for Me.
-
-December 26, 2025
-February 16, 2026
-May 15, 2026
-September 25, 2026
-December 28, 2026
 
