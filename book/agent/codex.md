@@ -106,7 +106,68 @@ statusMessage = "Checking Bash command"
 - Formatting, linting, testing, regenerating files
 - Updating docs or generated artifacts after changes
 
+
+
 **Not for:**
 - Blocking risky shell commands → use Rules
 - Limiting file or network access → use permissions
 - Teaching repo context → use `AGENTS.md`
+
+
+## Status line
+
+Use `/statusline` to customize what Codex shows in the CLI while a task is running.
+
+- Surface useful session context such as the model, branch, sandbox, or token usage.
+- Monitor long-running or parallel sessions.
+
+## Sub-agents
+
+Use `/agent` to delegate scoped work to specialized, parallel threads.
+
+### Use for
+
+- Splitting a large task into focused workstreams.
+- Assigning research, review, implementation, or monitoring to specialist roles.
+- Synthesizing the results of multiple workstreams.
+
+Example request:
+
+> Review merchandising, checkout, and release in separate scoped sub-agents.
+
+### Not for
+
+- Isolating local Git branches; use Worktrees instead.
+- Exploring a separate Codex path; use `/fork` instead.
+
+
+## Custom agents
+You can create custom agents in Codex by placing standalone TOML configuration files in your global or project-level .codex/agents/ directory.Where to Save Custom AgentsPersonal agents (global): Save as ~/.codex/agents/<agent-name>.toml.Project-scoped agents: Save as .codex/agents/<agent-name>.toml in your project root.Required Configuration FieldsEvery custom agent file must contain these three core keys:name: The identifier Codex uses when spawning or referencing the agent.description: Human-facing guidance explaining when Codex should trigger the agent.developer_instructions: Core instructions defining the specific behavior of the agent.You can also optionally configure parameters like model, model_reasoning_effort, sandbox_mode, and mcp_servers inside the TOML file. If omitted, they inherit settings from the parent session.
+
+## Worktrees
+
+Use `git worktree` to create separate local working directories for separate branches.
+
+- Isolate experiments, bug fixes, and feature work.
+- Let multiple Codex sessions work in parallel without competing for one checkout.
+
+To create a separate checkout for a branch:
+
+```bash
+git worktree add ../<branch-name> -b <branch-name>
+```
+
+## Forking
+
+Use `/fork` to create an independent Codex path from the current task.
+
+- Explore another implementation without disrupting the main thread.
+- Prototype a risky idea or compare uncertain approaches before committing to one.
+
+To branch the current Codex task into a new path:
+
+```text
+/fork <alternate approach>
+```
+
+Use Worktrees instead when you need local Git branches or multiple checkouts running side by side.
