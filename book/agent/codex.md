@@ -8,8 +8,8 @@ Use `config.toml` for operating defaults such as model behavior, sandboxing, app
 
 ```toml
 # ~/.codex/config.toml
-model = "gpt-5.4"
-model_reasoning_effort = "high"
+model = "terra-5.6"
+model_reasoning_effort = "medium"
 approval_policy = "on-request"
 sandbox_mode = "workspace-write"
 
