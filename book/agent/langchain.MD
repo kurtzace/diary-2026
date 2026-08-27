@@ -76,6 +76,26 @@ response = tavily_client.search(
 
 TavilySearch is already a tool
 
+```
+import asyncio
+from langchain_tavily import TavilyMap
+
+async def main():
+    tavily_map = TavilyMap()
+    
+    # Asynchronously invoke the tool to get the sitemap URLs
+    result = await tavily_map.ainvoke({
+        "url": "https://docs.tavily.com",
+        "instructions": "Find all pages about the Python SDK"
+    })
+    
+    print(result)
+
+asyncio.run(main())
+
+```
+
+
 ### anno
 `@tool`
 
@@ -95,7 +115,7 @@ Agent loop (tool call handling)
 
 ```python
 def run_agent(question: str):
-    print(f"\n--- Iteration {iteration} ---")
+    print(fn--- Iteration {iteration} ---")
 
     ai_message = llm_with_tools.invoke(messages)
 
@@ -182,6 +202,10 @@ Question: {input}
 Thought:{agent_scratchpad}
 ```
 </details>    
+
+
+
+`return_exceptions=True` keeps one failed task from cancelling the entire batch. Inspect each result with `isinstance(result, Exception)` before using its value.
 
 deep dive is https://dspy.ai/diving-deeper/tools-react-and-mcp/
 
@@ -278,3 +302,29 @@ tool_calls = ai_message.tool_calls
 
 ```
 </details>
+
+## Rag
+
+```python
+text_splitter = RecursiveCharacterTextSplitter(
+    chunk_size=4000,
+    chunk_overlap=200,
+)
+splitted_docs = text_splitter.split_documents(all_docs)
+```
+
+other chunking strategies
+
+![chunk strat](images/20260815084019.png)
+
+
+## Tip
+### process batches concurrently
+
+When processing a batch of URLs or other independent inputs, create one async task per item and wait for them together with `asyncio.gather`:
+
+```python
+tasks = [extract_batch(batch, i + 1) for i, batch in enumerate(url_batch)]
+
+results = await asyncio.gather(*tasks, return_exceptions=True)
+```
