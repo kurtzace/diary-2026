@@ -59,3 +59,9 @@ Why the Architecture Requires This Setup: 1. Upstream Cascading Failures: A fail
 Summary Takeaway: The article concludes that “the most resilient architecture is usually composable,” meaning teams should implement standard OpenTelemetry at the base infrastructure layer and stack highly specialized tools like Phoenix or Langfuse on top for rich data inspection. 
 
 <a href="https://ibb.co/SwkdfZqK"><img src="https://i.ibb.co/s9T6WXLF/IMG-20260903-074323605-2.jpg" alt="IMG-20260903-074323605-2" border="0"></a>
+
+
+refference architecture 
+
+
+<a href="https://ibb.co/fYfJGGHx"><img src="https://i.ibb.co/hRb011Vm/17884022048517717205315474049728.jpg" alt="17884022048517717205315474049728" border="0"></a>
