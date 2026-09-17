@@ -1,6 +1,205 @@
 transcript of [Om Jai Ganpati Deva || ॐ जय गणपति देवा || Latest Morning Aarti By Tara Devi](https://www.youtube.com/watch?v=Gs5_heiPW80&t=50s)
 
 # Full
+## English
+
+```
+Updated todo list
+
+[Intro theme music plays]
+
+Om Jai Ganapati Devo.
+
+Hari Jai Ganapati Devo.
+
+Aarti karte tumhaari, aarti karte tumhaari, tinko var devo. Om Jai Ganapati Devo.
+
+Om Jai Ganapati Devo.
+
+Hari Jai Ganapati Devo.
+
+Aarti karte tumhaari, aarti karte tumhaari, tinko var devo.
+
+Om Jai Ganapati Devo.
+
+Riddhi devo, Siddhi devo, ashta navanidhi devo.
+
+Hari ashta nava nidhi devo.
+
+Stuti karte tumhaari, stuti karte tumhaari, tinko var devo.
+
+Om Jai Ganapati Deva.
+
+Lambodara padma aasana
+
+Singhaasana sohe.
+
+Hari singhaasana sohe.
+
+Brahma se muni jaave, Brahma se muni jaave, tinko var devo.
+
+Om Jai Ganapati Devo.
+
+Devi-suta gajeshwara
+
+Kara kangana sohe.
+
+Hari kara kangana sohe.
+
+Mastak tilak viraaje, mastak tilak viraaje dantavali sohe.
+
+Om Jai Ganapati Deva.
+
+Gauri-pati shiva-nandana
+
+Asura nikandana ho.
+
+Hari asura nikandana ho.
+
+Kaanana kundala sohai, kaanana kundala sohai nirguna guna devo.
+
+Om Jai Ganapati Deva.
+
+Veda shaastra uchaare
+
+Chaturbhuja devo.
+
+Hari chaturbhuja devo.
+
+Jayakara aarti karta, jayakara aarti karta nirdhana dhana devo.
+
+Om Jai Ganapati Devo.
+
+Jo nara aarti gaave
+
+Ganapati ko dhyaave.
+
+Hari Ganapati ko dhyaave.
+
+Sevak sharana tumhaare, sevak sharana tumhaare vaanchhita phala paave.
+
+Om Jai Ganapati Deva.
+
+Jai Ganapati Deva.
+
+Hari Jai Ganapati Deva.
+
+Aarti karat tumhaari pooja karte tumhaari, tinko var devo.
+
+Om Jai Ganapati Deva.
+
+Om Jai Ganapati Devo.
+
+Hari Jai Ganapati Devo.
+
+Aarti karat tumhaari, aarti karat tumhaari, tinko var devo.
+
+Om Jai Ganapati Devo.
+```
+
+
+## Hindi
+```
+Updated todo list
+
+[शुरुआती थीम म्यूजिक बजता है]
+
+ओम जय गणपति देवो।
+
+हरि जय गणपति देवो।
+
+आरती करते तुम्हारी, आरती करते तुम्हारी, तिनको वर देवों। ओम जय गणपति देवो।
+
+ओम जय गणपति देवो।
+
+हरि जय गणपति देवो।
+
+आरती करते तुम्हारी, आरती करते तुम्हारी, तिनको वर देवो।
+
+ओम जय गणपति देवो।
+
+रिद्धि देवो, सिद्धि देवो, अष्ट नवनिधि देवो।
+
+हरि अष्ट नव निधि देवो।
+
+हस्ती करते तुम्हारी, हस्ति करते तुम्हारी, तिनको वर देवो।
+
+ओम जय गणपति देवा।
+
+लंबोदर पद्म आसन
+
+सिंहासन सोहे।
+
+हरि सिंहासन सोहे।
+
+ब्रह्मा से मुनि जावे, ब्रह्मा से मुनि जावै, तिनको वर देवो।
+
+ओम जय गणपति देवो।
+
+देवी सुत गजेश्वर
+
+कर कंगन सोहे।
+
+हरि कर कंगन सोहे।
+
+मस्तक तिलक विराजे, मस्तक तिलक विराजे दंतावली सोहे।
+
+ॐ जय गणपति देवा।
+
+गौरीपति शिवनंदन
+
+असुर निकन्दन हो।
+
+हरि असुर निकन्दन हो।
+
+कानन कुंडल सोहै, कानन कुंडल सोहै निर्गुण गुण देवो।
+
+ओम जय गणपति देवा।
+
+वेद शास्त्र उचारे
+
+चतुर्भुज देवो।
+
+हरि चतुर्भुज देवो।
+
+जयकारा आरती करता, जयकारा आरती करता निर्धन धन देवो।
+
+ओम जय गणपति देवो।
+
+जो नर आरती गावे
+
+गणपति को ध्यावे।
+
+हरि गणपति को ध्यावे।
+
+सेवक शरण तुम्हारे, सेवक शरण तुम्हारे वांछित फल पावे।
+
+ओम जय गणपति देवा।
+
+जय गणपति देवा।
+
+हरि जय गणपति देवा।
+
+आरती करत तुम्हारी पूजा करते तुम्हारी, तिनको वर देवो।
+
+ॐ जय गणपति देवा।
+
+ओम जय गणपति देवो।
+
+हरि जय गणपति देवो।
+
+आरती करत तुम्हारी, आरती करत तुम्हारी, तिनको वर देवो।
+
+ओम जय गणपति देवो।
+```
+
+
+
+# Full with times
+
+<details>
+  <summary>Click to open</summary>
+
 
 ## English
 
@@ -328,5 +527,12 @@ Bhakti karte tumhaari.
 
 00:00:41,680 --> 00:00:44,980 [Speaker 1]
 भक्ति करते तुम्हारी।
+
+
+
+
+</details>
+
+
 
 
