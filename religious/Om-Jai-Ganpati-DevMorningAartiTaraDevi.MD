@@ -4,7 +4,6 @@ transcript of [Om Jai Ganpati Deva || ॐ जय गणपति देवा ||
 ## English
 
 ```
-Updated todo list
 
 [Intro theme music plays]
 
@@ -100,7 +99,6 @@ Om Jai Ganapati Devo.
 
 ## Hindi
 ```
-Updated todo list
 
 [शुरुआती थीम म्यूजिक बजता है]
 
