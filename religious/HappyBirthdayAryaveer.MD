@@ -1,3 +1,4 @@
+```
 [Intro: Upbeat party horns, handclaps, laughing kids]
 
 [Verse 1: Traditional melody, energetic strumming]
@@ -34,3 +35,4 @@ Happy Birthday to You!
 [Outro: Big cheer, confetti pop, accelerating claps]
 We love you Aryaveer!
 Whooooo hooo!
+```
