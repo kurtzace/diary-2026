@@ -112,4 +112,9 @@ Here is how you can organize logs and traces according to the text:
 * Implement standard instrumentation: Use modern open-source standards like OpenTelemetry to automatically collect trace data without rewriting your core application logic.
 * Leverage visualization tools: Pass the trace data into specialized tools like Jaeger or Tempo. These tools generate a visual timeline or "waterfall chart" that explicitly shows the exact latency and execution path of a request across all services.
 
+----
 
+
+Rundeck: Focuses primarily on runbook automation and job scheduling. It allows engineering teams to define multi-step action scripts or processes that can be triggered manually by users or automatically via APIs when webhooks pick up alerts
+
+StackStorm: An event-driven automation platform. It relies heavily on a sensor-rule-action framework, meaning it listens for specific events or alerts from services, processes them through rules engines, and immediately executes designated operational workflows
