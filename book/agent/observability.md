@@ -118,3 +118,13 @@ Here is how you can organize logs and traces according to the text:
 Rundeck: Focuses primarily on runbook automation and job scheduling. It allows engineering teams to define multi-step action scripts or processes that can be triggered manually by users or automatically via APIs when webhooks pick up alerts
 
 StackStorm: An event-driven automation platform. It relies heavily on a sensor-rule-action framework, meaning it listens for specific events or alerts from services, processes them through rules engines, and immediately executes designated operational workflows
+
+---
+
+
+## The eBPF Observability Stack
+
+* Pixie: An application performance monitoring (APM) tool that handles automated distributed tracing. It monitors and parses application-layer traffic protocols (such as HTTP, gRPC, DNS, and database queries) right from the kernel's network buffers, collecting trace data without any code instrumentation. 
+* Parca: A continuous profiling tool designed to track performance execution bottlenecks down to individual lines of code. It works by capturing and aggregating system stack traces multiple times per second, rendering them into flame graphs to show exactly which application functions are slowing down your infrastructure or hogging resources. [1, 7] 
+* Cilium: A highly robust Container Network Interface (CNI) designed specifically for Kubernetes environments. It completely bypasses slower legacy routing systems (like iptables or kube-proxy) to natively control Layer 3 through Layer 7 network routing, handle load balancing, and strictly enforce security policies directly inside the kernel. [4, 6, 7, 8] 
+* Hubble: The dedicated network visibility and observability engine natively integrated into Cilium. It acts as a graphical and programmatic command layer, pulling network event metadata from Cilium to produce deep real-time dependency service maps, track connection retries, audit dropped packets, and map out exactly how components communicate.  
