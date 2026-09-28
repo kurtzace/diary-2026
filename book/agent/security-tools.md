@@ -54,26 +54,8 @@ Open-source security tools provide community-driven, cost-effective solutions fo
 
 | Layer | Primary Focus | Recommended Open Source Tools |
 | --- | --- | --- |
-| **Layer 1: Perimeter** | Firewall rules, network segmentation
-
- | `iptables` / `nftables`<br> |
-| **Layer 2: Network** | Intrusion detection and block attacks
-
- | Suricata, Snort
-
- |
-| **Layer 3: Container** | Runtime anomalies and image scanning
-
- | Falco, Trivy
-
- |
-| **Layer 4: Host** | File integrity, system audit logs
-
- | OSSEC, Wazuh
-
- |
-| **Layer 5: Application** | Dependency scans and code checks
-
- | Trivy, ClamAV
-
- |
+| **Layer 1: Perimeter** | Firewall rules, network segmentation | `iptables` / `nftables`<br> |
+| **Layer 2: Network** | Intrusion detection and block attacks | Suricata, Snort |
+| **Layer 3: Container** | Runtime anomalies and image scanningv| Falco, Trivy |
+| **Layer 4: Host** | File integrity, system audit logs| OSSEC, Wazuh|
+| **Layer 5: Application** | Dependency scans and code checks | Trivy, ClamAV |
