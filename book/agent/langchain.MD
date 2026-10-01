@@ -335,3 +335,20 @@ results = await asyncio.gather(*tasks, return_exceptions=True)
 
 
 ### LLM Guard
+
+# opensource mag july 26
+Selecting a vector database
+
+You need to choose a vector database that can efficiently handle both storing and retrieving embeddings data. The following options serve as popular choices:
+
+FAISS - great for local development and fast similarity search
+
+Pinecone - managed service with built-in scaling
+
+Weaviate - flexible, supports metadata filtering and hybrid search Your choice will depend on scale:
+
+Small/local projects → FAISS
+
+Production apps → Pinecone or Weaviate environment setup
+
+
