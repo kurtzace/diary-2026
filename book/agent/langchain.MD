@@ -209,6 +209,10 @@ Thought:{agent_scratchpad}
 
 deep dive is https://dspy.ai/diving-deeper/tools-react-and-mcp/
 
+## LLM Guard
+
+LLM Guard is an open-source security toolkit for protecting applications that use large language models. It provides input and output scanners that can detect prompt injection, sensitive information, harmful content, toxic language, and other risks. It can also validate structure, prevent data leakage, and improve the safety of prompts and responses. Developers can compose scanners into a pipeline around an LLM call, but results still require testing because automated safeguards are not perfect.
+
 <details>
     <summary>python inspect</summary>
 
@@ -328,3 +332,6 @@ tasks = [extract_batch(batch, i + 1) for i, batch in enumerate(url_batch)]
 
 results = await asyncio.gather(*tasks, return_exceptions=True)
 ```
+
+
+### LLM Guard
