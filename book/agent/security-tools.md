@@ -177,3 +177,8 @@ In a secure agentic framework, it serves three major purposes:
    3. Regulatory Auditing & Governance: New global standards (like the EU AI Act) mandate that autonomous systems leave clear audit trails. A logged Chain of Reasoning provides a transparent record of exactly why an AI took a specific route, while its Hyperledger Aries signature provides the cryptographic proof of who authorized it, creating a completely secure and auditable decision pipeline. [2, 13, 14] 
 
 ------------------------------
+
+• Outlines a 5-step flow for agentic execution—Identity Bootstrapping, Proposal for Action, Cryptographic Signing, Verification & Execution, and Immutable Logging.
+• Dos and Don'ts:
+	• Do: Implement short-lived API keys for AI agents, enforce DID authentication, and maintain human-in-the-loop oversight for high-value transactions.
+	• Don't: Use static API keys, hard-code secrets, or allow unmonitored autonomous execution without verifiable audit logs
