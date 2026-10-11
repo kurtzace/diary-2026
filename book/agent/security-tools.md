@@ -146,3 +146,34 @@ The hierarchical layers outlined in the document include:
 * Level 5: Cloud / External Connectivity
 * This level represents connectivity to external systems beyond the enterprise, such as cloud platforms, third-party services, and external partner networks. While not part of the original Purdue Model, it is commonly included in modern architectures to leverage advanced analytics and remote services.
 
+
+
+---
+
+## decentralised identity 
+
+Based on the technical layout provided in the text image, Decentralized Identifiers (DIDs) and Verifiable Credentials (VCs) serve as the missing security foundation for Agentic AI. When AI agents execute multi-step operations autonomously across corporate boundaries, traditional access methods (like API keys) fail because they lack identity context, consent tracking, and cross-domain trust. [1] 
+Here is how toolkits like Hyperledger Aries combine with an explicit Chain of Reasoning (Chain-of-Thought) to solve this problem:
+------------------------------
+## 1. How Hyperledger Aries Helps Secure AI Agents
+[Hyperledger Aries](https://lf-hyperledger.atlassian.net/wiki/display/aries) provides the shared, reusable toolkit, infrastructure, and off-ledger peer-to-peer communication protocols (DIDComm) required for machines to safely interact. [2, 3] 
+
+* Establishing the "Root of Trust" (Identity & Authorization): Traditional systems treat AI agents as black boxes. Aries enables an agent to hold a self-controlled digital identity backed by a ledger-anchored DID. This allows the agent to cryptographically prove who it is, which organization operates it, and what actions it is authorized to perform before it accesses data or executes transactions. [1, 4, 5] 
+* Tamper-Resistant Digital Wallets: Using Aries frameworks (such as [Aries Cloud Agent Python (ACA-Py)](https://aca-py.org/0.12.6/gettingStarted/AriesBasics/)), an AI agent can possess a secure, cryptographic wallet. It stores third-party issued Verifiable Credentials (VCs)—such as enterprise spending limits, security clearances, or vendor certifications. [2, 4, 5, 6] 
+* Safe Cross-Domain Messaging: When an agent leaves its home enterprise network to talk to an external supplier's agent, it does not use a shared secret API key. Instead, it uses DIDComm to establish an encrypted, peer-to-peer machine-to-machine messaging connection where credentials can be requested and verified instantly. [1, 7, 8] 
+
+------------------------------
+## 2. The Critical Role of the "Chain of Reasoning"
+As highlighted in the provided text under "The shift to decentralized identity requires identifying intermediate logical steps," a Chain of Reasoning (or Chain-of-Thought) acts as the flight recorder for the AI's cognitive path. [9, 10] 
+In a secure agentic framework, it serves three major purposes:
+
+[ Problem Statement ] ➔ [ Chain of Reasoning / Thought Process ] ➔ [ Cryptographic Proof / Action ]
+                                      │
+                            (Audited by Guardrails)
+
+
+   1. Exposing the "Why" Before the "What": Instead of a Large Language Model (LLM) jumping straight from a request to an action (e.g., executing a bank wire), a Chain of Reasoning forces the agent to break down its logic into explicit, sequential thoughts. For example: "I need to buy X parts. The total cost is $5,000. My corporate VC limit is $10,000. I am authorized to proceed." [11, 12, 13] 
+   2. Real-Time Guardrail Auditing: By exposing these intermediate logical thoughts before an action is performed, automated system guardrails can intercept the process. If the agent's chain of reasoning shows an anomaly—such as hallucinated facts, logic loops, or a deviation from corporate protocols—the system can halt the agent before it cryptographically signs an unauthorized document or transaction.
+   3. Regulatory Auditing & Governance: New global standards (like the EU AI Act) mandate that autonomous systems leave clear audit trails. A logged Chain of Reasoning provides a transparent record of exactly why an AI took a specific route, while its Hyperledger Aries signature provides the cryptographic proof of who authorized it, creating a completely secure and auditable decision pipeline. [2, 13, 14] 
+
+------------------------------
