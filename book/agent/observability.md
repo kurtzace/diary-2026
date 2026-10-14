@@ -128,3 +128,20 @@ StackStorm: An event-driven automation platform. It relies heavily on a sensor-r
 * Parca: A continuous profiling tool designed to track performance execution bottlenecks down to individual lines of code. It works by capturing and aggregating system stack traces multiple times per second, rendering them into flame graphs to show exactly which application functions are slowing down your infrastructure or hogging resources. [1, 7] 
 * Cilium: A highly robust Container Network Interface (CNI) designed specifically for Kubernetes environments. It completely bypasses slower legacy routing systems (like iptables or kube-proxy) to natively control Layer 3 through Layer 7 network routing, handle load balancing, and strictly enforce security policies directly inside the kernel. [4, 6, 7, 8] 
 * Hubble: The dedicated network visibility and observability engine natively integrated into Cilium. It acts as a graphical and programmatic command layer, pulling network event metadata from Cilium to produce deep real-time dependency service maps, track connection retries, audit dropped packets, and map out exactly how components communicate.  
+
+
+-----
+
+
+## evals 
+
+https://youtu.be/MltkRz94SWA?si=StoNEKza6x50-0Ge
+
+
+Arize (11:46) as the primary tool to build and run AI evaluations. 
+
+Key Components of the Workflow:
+Reference Dataset: A dataset consisting of three columns: User Request, AI Answer, and Reference Answer (12:12-12:35).
+LLM Judge Configuration: Within Arize, the creator chooses LLM as a judge (13:46) to evaluate the system.
+Rubrics & Criteria: The user must define specific rules for the LLM judge. For the QuickCart customer support example, these included criteria for escalation (e.g., angry customers, swearing, fraud, or security concerns) (14:10-14:41).
+Classification: The judge is instructed to output specific labels, such as correct or incorrect (14:54), to assess if the assistant handled the escalation correctly.
