@@ -1,0 +1,5 @@
+Is Storytelling the Secret to Mastering Creativity in the Age of AI?", the author mentions utilizing a diverse suite of advanced software tools to experiment with, build, and streamline her narrative ideas:
+• Generative AI Foundational Models: The author utilizes Large Language Models (LLMs) like OpenAI's ChatGPT and Google's Gemini to help format texts, structure plots, build characters, and draft outlines.
+• API & Application Development: The author leverages the Gemini AI Studio application programming interface (API) to integrate AI into custom workflows.
+• Visual Generation: She mentions using AI systems like Midjourney to produce consistent character imagery and visual concepts for storyboarding.
+• Platform & No-Code Applications: She builds custom storytelling platforms like Script Factory to test multi-character branching stories in immersive environments like Augmented Reality (AR) and Virtual Reality (VR).
