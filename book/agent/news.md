@@ -15,5 +15,38 @@ Real estate automation platform EliseAI achieved a $4 billion valuation after it
 Tech giants are locked in a multi-billion dollar race to control both AI software and hardware silicon. Companies like Google, Microsoft, and Amazon are heavily investing in custom chips to reduce dependence on Nvidia. This full-stack control is seen as vital for lowering computing costs and dominating the AI market.
 ## Insiders Warn That We Are Losing Grip on Self-improving AI Systems
 AI researchers warn that rapid progress toward self-improving AI systems is outpacing safety guardrails. Prominent industry figures caution that as models begin training other models independently, human oversight becomes increasingly difficult. They urge stricter safety protocols before these systems develop irreversible, autonomous capabilities.
-Would you like me to deepen the summary for any specific article, or look for more details regarding a particular company mentioned?
+
+
+
+## mwc26
+• MWC26 Barcelona Demo: Mplify, Colt Technology Services, Orange, and Google Cloud demonstrated agentic AI using open, standardised network APIs.
+• CAMARA and GSMA APIs: AI agents dynamically requested quality on demand using CAMARA APIs and invoked Mplify Lifecycle Service Orchestration APIs.
+• Automotive & Drones Use Cases: DENSO and Tata Elxsi validated predictable, performance-aware communications for connected vehicles and drones.
+
+
+
+## Alibaba's CoPaw AI assistant,
+
+ organized by its key architectural features, memory management, and integration capabilities.
+
+Core Overview & Deployment
+
+• Open-source Personal Agent: CoPaw is developed by the AgentScope team within the Alibaba ecosystem and released under the Apache License 2.0.
+• Eliminates vendor lock-in: The open-source model allows users to run, modify, and scale the assistant independently.
+• Hybrid deployment: CoPaw runs fully offline using local models via Ollama or llama.cpp to protect sensitive data. It can also deploy to cloud infrastructures like Alibaba Cloud Elastic Compute Service (ECS) or other VPS environments.
+
+Memory & Context Management
+
+Unlike typical stateless chatbots, CoPaw retains long-term contextual information across interactions using a specialized system.
+• ReMe Framework: Powered by ReMe (Remember Me, Refine Me), a specialized memory management framework.
+• File-based storage: Memory is handled via file-based storage, making user data completely editable and portable.
+• Hybrid retrieval mechanism: It retrieves information using a weighted combination of semantic vector search (0.7 weight) and BM25 keyword search (0.3 weight).
+• Context compaction: This feature summarizes long conversations to preserve vital details without exceeding LLM context limits.
+
+Platform Integration & Extensibility
+
+• Multi-platform support: Operates across channels including Discord, Slack, DingTalk, Feishu, and iMessage using a single AI assistant.
+• Custom Python skills: Built on the AgentScope framework, letting developers write custom Python-based skills for database queries, web scraping, or workflow automation.
+• Task scheduling: Includes cron-based scheduling for autonomous task execution.
+• Model switching: Supports seamless switching between GPT-based, Llama, and Qwen models without losing stored memory.
 
