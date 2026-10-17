@@ -18,3 +18,9 @@ Because quantum signals cannot be perfectly copied or amplified without destroyi
 	1. Purification-based repeaters: These trade additional entanglement attempts for higher fidelity via distillation.
 	2. Error-corrected repeaters: These encode local qubits to tolerate loss and operational errors at the cost of requiring a significantly higher qubit overhead.
 Choosing the right design depends heavily on the target distance, required performance metrics, and available hardware capabilities.
+
+
+• Communication Protocols (Sending Qubits Over Distance): Discusses transmitting qubits using quantum teleportation, entanglement-based schemes, and quantum key distribution (QKD) to bypass the limitations of the no-cloning theorem.
+• Applications for Secure and Fast Communication: Highlights high-security data transfer, defense applications, and distributed quantum computing.
+• The Cost Factor (Capital Expenditure): Outlines the massive capital and infrastructure investments needed—such as cryogenic freezers, single-photon detectors, and specialized optics.
+• Future of Quantum Internet Development: Examines staged rollout plans, free-space/satellite links to overcome fiber loss, and hybrid hardware integration
