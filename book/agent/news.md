@@ -50,3 +50,39 @@ Platform Integration & Extensibility
 • Task scheduling: Includes cron-based scheduling for autonomous task execution.
 • Model switching: Supports seamless switching between GPT-based, Llama, and Qwen models without losing stored memory.
 
+## Open VSX Registry ecosystem,
+ infrastructure growth, and newly implemented security measures.
+
+💻 Supported Ecosystem & Major Players
+
+The registry powers a rapidly expanding network of AI-native development environments and cloud-based platforms. As usage scales, major industry leaders are heavily investing in strengthening this open-source infrastructure. Supported environments built on the VS Code extension API include:
+• Amazon's Kiro
+• Google's Antigravity
+• Cursor
+• IBM's Bob
+• VSCodium, Windsurf, and Ona (formerly Gitpod)
+
+🔒 Supply-Chain Security Enhancements
+
+To reinforce ecosystem protection against growing threat models, a new pre-publication verification framework has been introduced. This system flags and quarantines suspicious extensions before they ever reach the public by actively detecting:
+• Namespace impersonation and extension name spoofing
+• Exposed credentials and embedded secrets
+• Known malicious patterns
+
+🌐 Resilient Multi-Region Architecture
+
+Supported by a strategic investment from Amazon Web Services (AWS) and scaling platforms like Cursor, the Open VSX Registry is transitioning to a resilient, hybrid multi-region architecture to handle high traffic spikes:
+• Primary Production: Hosted on AWS infrastructure located in Europe.
+• Secondary Environment: An independent, fully operational on-premises deployment in Canada to prevent single points of failure.
+• Data Security: All registry data, backups, and telemetry remain explicitly within these designated regions and are completely encrypted both in transit and at rest
+
+
+## Fractal Analytics has launched LLM Studio
+, an enterprise platform designed to help organizations build, evaluate, and deploy domain-specific large language models (LLMs) using open-source foundations and NVIDIA AI infrastructure.
+
+Key Features of LLM Studio
+
+• AutoLLM Module: Supports open-source model selection, synthetic data generation, customisation, and performance benchmarking.
+• LLMOps Module: Handles deployment, monitoring, and governance across the entire model lifecycle.
+• NVIDIA Integration: Built on NVIDIA's AI ecosystem, leveraging NVIDIA NeMo for model development and NVIDIA NIM for deployment and hosting, with future support for NVIDIA Nemotron open models.
+• Enterprise Benefits: Focuses on smaller, purpose-built models to reduce hallucinations, improve reasoning quality, and lower production costs while keeping output data secur
