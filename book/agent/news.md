@@ -86,3 +86,11 @@ Key Features of LLM Studio
 • LLMOps Module: Handles deployment, monitoring, and governance across the entire model lifecycle.
 • NVIDIA Integration: Built on NVIDIA's AI ecosystem, leveraging NVIDIA NeMo for model development and NVIDIA NIM for deployment and hosting, with future support for NVIDIA Nemotron open models.
 • Enterprise Benefits: Focuses on smaller, purpose-built models to reduce hallucinations, improve reasoning quality, and lower production costs while keeping output data secur
+
+
+## • NVIDIA KVTC:
+ Introduces KV Cache Transform Coding (KVTC), which slashes large language model (LLM) memory usage by up to 20x without requiring retraining.
+• How it Works: Borrows from JPEG-style media compression by combining Principal Component Analysis (PCA) feature reduction, dynamic precision allocation, and DEFLATE entropy coding.
+• Ecosystem Integration: Planned for integration into NVIDIA Dynamo's KV Block Manager with support for open ecosystems like vLLM.
+
+
