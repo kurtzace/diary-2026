@@ -25,3 +25,10 @@ preventing ama (toxins)
 	• Pitta dosha: The dosha of transformation (associated with fire and water).
 	• Kapha dosha: The dosha of structure and substance (associated with water and earth).
 • Prakruti: The unique physical and mental proportion of the three doshas that defines an individual.
+
+
+Vata: Colon
+Pitta: Small intestine
+Kapha: Lungs
+    
+                 
