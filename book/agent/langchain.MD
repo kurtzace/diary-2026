@@ -352,3 +352,56 @@ Small/local projects → FAISS
 Production apps → Pinecone or Weaviate environment setup
 
 
+
+
+# langgraph
+
+```
+from typing import Annotated
+from typing_extensions import TypedDict
+from langgraph.graph import StateGraph, START
+from langgraph.graph.message import add_messages
+from langgraph.prebuilt import ToolNode, tools_condition
+from langchain_tavily import TavilySearch
+from langchain.chat_models import init_chat_model
+
+
+# 1. Define Message State with Reducer
+class State(TypedDict):
+  messages: Annotated[list, add_messages]
+
+
+# 2. Define Tools (Tavily Search + Custom Function)
+tavily_tool = TavilySearch(max_results=2)
+
+
+def multiply(a: int, b: int) -> int:
+  """Multiply a and b."""
+  return a * b
+
+
+tools = [tavily_tool, multiply]
+
+# 3. Initialize LLM and Bind Tools
+llm = init_chat_model('groq:openai/gpt-oss-120b')
+llm_with_tools = llm.bind_tools(tools)
+
+
+# 4. Define LLM Node
+def tool_calling_llm(state: State):
+  return {'messages': [llm_with_tools.invoke(state['messages'])]}
+
+
+# 5. Build Graph
+builder = StateGraph(State)
+builder.add_node('tool_calling_llm', tool_calling_llm)
+builder.add_node('tools', ToolNode(tools))
+
+# 6. Add Edges and Conditional Routing
+builder.add_edge(START, 'tool_calling_llm')
+builder.add_conditional_edges('tool_calling_llm', tools_condition)
+builder.add_edge('tools', 'tool_calling_llm')
+
+graph = builder.compile()
+
+```
