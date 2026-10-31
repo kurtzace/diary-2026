@@ -349,4 +349,8 @@ tokenizer.save_pretrained(f"{OUTPUT_DIR}_merged")
 ```
 
 
+example internet sample
+
+`{"instruction": "Provide a minimal C snippet that demonstrates the POSIX mmap() usage with proper error handling.", "input": "", "output": "#include <stdio.h>\n#include <stdlib.h>\n#include <sys/mman.h>\n#include <sys/stat.h>\n#include <fcntl.h>\n#include <unistd.h>\n\nint main() {\n    int fd = open(\"example.txt\", O_RDWR | O_CREAT, 0644);\n    if (fd == -1) { perror(\"open\"); exit(1); }\n    off_t sz = 4096;\n    if (ftruncate(fd, sz) == -1) { perror(\"ftruncate\"); close(fd); exit(1); }\n    char *map = mmap(NULL, sz, PROT_READ | PROT_WRITE, MAP_SHARED, fd, 0);\n    if (map == MAP_FAILED) { perror(\"mmap\"); close(fd); exit(1); }\n    munmap(map, sz);\n    close(fd);\n    return 0;\n}"}`
+
 
