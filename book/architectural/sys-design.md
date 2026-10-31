@@ -62,3 +62,25 @@ If you want to become GOAT-level with system design,learn these 21 concepts (sav
 
 21 How Service Discovery Works
 ↳ https://lnkd.in/eCYYwQfU
+
+
+----
+
+Opensource magazine: 
+
+Apache camel , service integration like linkerd, Istio, 
+api gateway: kong, envoy,
+
+
+Architectural Layers in the Diagram (Figure 1: Hybrid Cloud Management Model)
+
+• Unified Channels, Edge Devices & Agile Applications: The top-level user and device entry point, including web/mobile apps, IoT devices, and Agentic Interfaces (autonomous AI agents acting as human collaborators).
+• Modernized Enterprise Application Portfolio: Core business application domains such as ERP, CRM, HR, microservices, and specialized apps.
+• Integrated Service Fabric: The service mesh and API gateway foundation coordinating communication across services.
+• Unified Enterprise Data Services & Fabric Layer (Data Gravity): Handles relational databases (e.g., PostgreSQL), NoSQL (Cassandra, Redis), data lakes (MinIO, Apache Hive), and data streaming (Apache Kafka) for real-time/event-driven architectures.
+• Enterprise AI and Model Orchestration Layer: Manages model governance, training, serving, and inference services, featuring MLOps frameworks (Kubeflow, MLflow), model gateways, and prompt registries/caching (Valkey, KServe, vLLM).
+• Enterprise Cloud Management & Governance (Control Plane): Provides self-service catalogs, provisioning, multi-cloud governance, policy-as-code (Open Policy Agent/Kyverno), and FinOps cost optimization.
+• Enterprise Container Management Layer: Powered by GitOps, CI/CD pipelines, and observability tools.
+• Hybrid Infrastructure & Edge Environments (Unified Foundation): Spans enterprise public clouds (AWS, Azure, GCP), enterprise private clouds, infrastructure-as-code (IaC), and edge tiers
+
+
