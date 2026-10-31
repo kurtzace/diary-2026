@@ -19,3 +19,21 @@ Open Source For You, here are the specific software tools, frameworks, and servi
 • Hyper-Scale Cloud Providers: Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure
 • Alternative/VPS Providers: Hetzner and DigitalOcean
 • Specific Managed Services: Amazon RDS, Google Kubernetes Engine (GKE), AWS Lambda, and Amazon S3
+
+
+
+
+Backup Automation
+
+• Restic: Used for creating secure, encrypted backups stored in remote locations.
+• BorgBackup: An efficient deduplicating backup program used to automate and secure data copies.
+
+Monitoring & System Health
+
+• Prometheus: Provides real-time visibility, system monitoring, and alerting metrics.
+• Grafana: A visualization and analytics platform paired with Prometheus or Loki to monitor infrastructure performance.
+
+Log Centralization
+
+• ELK Stack: A combination of Elasticsearch, Logstash, and Kibana used for collecting, parsing, and visualizing log data.
+• Grafana Loki: A horizontally scalable, highly available log aggregation system.
