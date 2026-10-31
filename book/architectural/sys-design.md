@@ -147,3 +147,10 @@ Topics Covered on the Page
 	• Compares open-source options like Knative (managed on Kubernetes) with proprietary serverless platforms like AWS Lambda.
 	• Highlights scaling throughput, handling cold starts, managing performance budgets, and cost models.
 	• Notes that Knative works well for teams that want serverless capabilities directly on their own Kubernetes clusters, whereas AWS Lambda offers faster setup with less infrastructure management.
+
+
+------
+
+Oracle Identity llm models 
+
+<img src="https://i.ibb.co/ksSWKTMq/17934400783038187155056103168026.jpg" alt="17934400783038187155056103168026" border="0">
