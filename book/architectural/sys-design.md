@@ -84,3 +84,29 @@ Architectural Layers in the Diagram (Figure 1: Hybrid Cloud Management Model)
 • Hybrid Infrastructure & Edge Environments (Unified Foundation): Spans enterprise public clouds (AWS, Azure, GCP), enterprise private clouds, infrastructure-as-code (IaC), and edge tiers
 
 
+
+Infrastructure & Container Management
+
+• Kubernetes – Used as the foundational container orchestration system across different clusters (including OKD, RKE2).
+• OpenTofu – Utilized for Infrastructure as Code (IaC) to ensure deployment environments are scripted and reproducible.
+• KubeEdge & OpenYurt – Mentioned as examples for edge-tier container and infrastructure deployment.
+
+🔄 DevOps & CI/CD Automation
+
+• ArgoCD – Used for GitOps-driven deployment automation.
+• Jenkins – Mentioned for traditional Continuous Integration and Deployment (CI/CD) pipelines.
+
+📊 Observability & Monitoring
+
+• Prometheus – Leveraged for metric gathering, monitoring, and cloud-agnostic instrumentation.
+• Grafana – Used alongside monitoring systems for telemetry dashboarding and visualization.
+• OpenTelemetry – Utilized for standardized metrics, tracing, and log collection across infrastructure layers.
+
+🛡️ Security & Policy Automation
+
+• Keycloak – Employed for zero-trust identity management and automated access control guardrails.
+• OPA (Open Policy Agent) & Kyverno – Leveraged for programmatic policy-as-code automation and regulatory verification.
+
+🧩 Event Bus & Standards
+
+• Kafka – Implemented as the Event Bus engine handles change data capture (CDC) and life cycle events.
