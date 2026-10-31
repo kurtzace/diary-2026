@@ -1,3 +1,13 @@
+• Core Frameworks & Best Use Cases:
+	• TensorFlow: Deep learning, ML model training
+	• PyTorch: Research and prototyping, NLP, Vision
+	• Hugging Face: NLP and Transformer models
+	• LangChain: LLM-based workflow development, AI agents
+	• ONNX: Model interoperability and porting
+
+
+
+
 news economics times. oct 1
 
 
