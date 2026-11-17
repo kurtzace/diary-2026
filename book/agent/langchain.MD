@@ -321,6 +321,21 @@ other chunking strategies
 
 ![chunk strat](images/20260815084019.png)
 
+## Middleware
+
+Agent middleware acts as a programmable, lightweight lifecycle layer that intercepts and modifies execution steps inside AI agent loops (such as model calls, tool executions, and state updates) without requiring you to rebuild entire orchestration graphs.
+
+Core Purpose
+
+• Lifecycle Control: Hooks into distinct phases of an agent's run—such as before_agent, before_model, after_model, wrap_model_call, and wrap_tool_call—to inspect or alter behavior.
+• Context & Memory Management: Prevents context overload, context drift, and token waste through automated tools like conversation summarization and state schema modifications.
+• Safety & Guardrails: Enforces operational policies, rate limits, human-in-the-loop approvals, and tool-call thresholds.
+
+Common Use Cases & Examples
+
+• LangChain Middleware: Introduced to customize the core agent loop for tasks like summarization, prompt caching, tool-call limits, and human-in-the-loop validation via classes like AgentMiddleware. Explore the official Prebuilt middleware by LangChain for production options.
+• Microsoft Agent Framework: Implements agent-level (persistent) and run-level (per-request) middleware via function- or class-based handlers using call_next to intercept and override inputs or outputs. Read the Microsoft Agent Middleware Guide for implementation details
+<img src="https://i.ibb.co/TxBVPzKY/image.png" alt="image" border="0">
 
 ## Tip
 ### process batches concurrently
@@ -332,6 +347,7 @@ tasks = [extract_batch(batch, i + 1) for i, batch in enumerate(url_batch)]
 
 results = await asyncio.gather(*tasks, return_exceptions=True)
 ```
+
 
 
 ### LLM Guard

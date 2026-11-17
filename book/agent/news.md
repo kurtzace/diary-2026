@@ -17,3 +17,21 @@ Tech giants are locked in a multi-billion dollar race to control both AI softwar
 AI researchers warn that rapid progress toward self-improving AI systems is outpacing safety guardrails. Prominent industry figures caution that as models begin training other models independently, human oversight becomes increasingly difficult. They urge stricter safety protocols before these systems develop irreversible, autonomous capabilities.
 Would you like me to deepen the summary for any specific article, or look for more details regarding a particular company mentioned?
 
+
+
+
+## LangChain- Agentic AI Engineering with LangChain & LangGraph
+Scale with opensource models is self managed. 
+
+Managed llms: SOC2, HIPPA 
+
+Fine tuning only in worst case
+
+CARE: confidence in AI results. Trust, correct op = Value/(Risk+effort to correct) - Example Cursor.
+
+JASPER: assistant - not fully autonomous
+
+
+Monday AI: care is moderate
+
+Langchain blogs, twitter

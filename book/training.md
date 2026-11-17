@@ -83,3 +83,8 @@
 | [Codex workflows (source webinars)](agent/codex.md) | Webinar / self-study | AI Hub / Center of Excellence | Aug 2026 | — | 1h |
 
 > Dates and durations are taken from the open platform pages. An em dash means the tab did not expose that value.
+
+
+
+## todo
+[How Uber's AI Agent Debugs Production Issues](https://www.youtube.com/watch?v=CacTDGs-If4)

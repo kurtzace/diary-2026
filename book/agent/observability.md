@@ -127,4 +127,16 @@ StackStorm: An event-driven automation platform. It relies heavily on a sensor-r
 * Pixie: An application performance monitoring (APM) tool that handles automated distributed tracing. It monitors and parses application-layer traffic protocols (such as HTTP, gRPC, DNS, and database queries) right from the kernel's network buffers, collecting trace data without any code instrumentation. 
 * Parca: A continuous profiling tool designed to track performance execution bottlenecks down to individual lines of code. It works by capturing and aggregating system stack traces multiple times per second, rendering them into flame graphs to show exactly which application functions are slowing down your infrastructure or hogging resources. [1, 7] 
 * Cilium: A highly robust Container Network Interface (CNI) designed specifically for Kubernetes environments. It completely bypasses slower legacy routing systems (like iptables or kube-proxy) to natively control Layer 3 through Layer 7 network routing, handle load balancing, and strictly enforce security policies directly inside the kernel. [4, 6, 7, 8] 
-* Hubble: The dedicated network visibility and observability engine natively integrated into Cilium. It acts as a graphical and programmatic command layer, pulling network event metadata from Cilium to produce deep real-time dependency service maps, track connection retries, audit dropped packets, and map out exactly how components communicate.  
+* Hubble: The dedicated network visibility and observability engine natively integrated into Cilium. It acts as a graphical and programmatic command layer, pulling network event metadata from Cilium to produce deep real-time dependency service maps, track connection retries, audit dropped packets, and map out exactly how components communicate. 
+
+
+
+## LangChain- Agentic AI Engineering with LangChain & LangGraph
+LLMOps: langsmith to monitor langchain - not opensource
+
+Pezzo : opensource
+
+Threat safe: injection, access to unreasonable data
+
+
+å
