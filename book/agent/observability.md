@@ -140,3 +140,21 @@ Threat safe: injection, access to unreasonable data
 
 
 å
+* Hubble: The dedicated network visibility and observability engine natively integrated into Cilium. It acts as a graphical and programmatic command layer, pulling network event metadata from Cilium to produce deep real-time dependency service maps, track connection retries, audit dropped packets, and map out exactly how components communicate.  
+
+
+-----
+
+
+## evals 
+
+https://youtu.be/MltkRz94SWA?si=StoNEKza6x50-0Ge
+
+
+Arize (11:46) as the primary tool to build and run AI evaluations. 
+
+Key Components of the Workflow:
+Reference Dataset: A dataset consisting of three columns: User Request, AI Answer, and Reference Answer (12:12-12:35).
+LLM Judge Configuration: Within Arize, the creator chooses LLM as a judge (13:46) to evaluate the system.
+Rubrics & Criteria: The user must define specific rules for the LLM judge. For the QuickCart customer support example, these included criteria for escalation (e.g., angry customers, swearing, fraud, or security concerns) (14:10-14:41).
+Classification: The judge is instructed to output specific labels, such as correct or incorrect (14:54), to assess if the assistant handled the escalation correctly.
