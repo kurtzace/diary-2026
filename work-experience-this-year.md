@@ -121,3 +121,14 @@ Built an LLM preprocessing pipeline using component documentation to generate co
 - [Cisco DevNet: Cloud Security API](https://developer.cisco.com/docs/cloud-security/) - Public Secure Access and Umbrella APIs for reporting, dashboard integrations and threat investigation.
 
 References checked November 17, 2026. Generic engineering and prototype descriptions are self-reported, not verified by these references; public technology names alone do not establish that an employer-specific implementation is approved for disclosure.
+
+## Technical Stack
+
+- **Frontend:** JavaScript, React, Redux, Redux-Saga, React Query, Storybook.
+- **Backend:** Java, Kotlin, Clojure, Python, Node.js, Express, Spring Boot, REST APIs, GraphQL, Resilience4j.
+- **AI:** Amazon Bedrock, Bedrock Knowledge Bases, Bedrock Prompt Management, Claude, Titan embeddings, MCP, FastMCP, LangGraph, spaCy, Amazon Lex, Amazon Kendra, Jupyter notebooks.
+- **Data & Messaging:** ClickHouse, Redis, DynamoDB, AWS RDS, OpenSearch, Kafka, Avro, LMDB, Chronicle Queue, Caffeine.
+- **DevOps & Cloud:** AWS S3, Lambda, EC2, EKS, ECR, Docker, Kubernetes, Helm, Terraform, Ansible, Jenkins, GitHub Actions, Concourse, Gradle, Bash.
+- **Testing & Quality:** Jest, Locust, Puppeteer, Lighthouse CI, SonarQube, LocalStack.
+- **Observability:** Splunk, Splunk RUM, Prometheus, Amplitude, PagerDuty.
+- **Collaboration & Design:** GitHub, Jira, Confluence, Webex, Figma.
