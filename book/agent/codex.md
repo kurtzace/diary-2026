@@ -1,6 +1,9 @@
 # Codex Agent Notes
 
 - [Codex Agent Notes](#codex-agent-notes)
+  - [Open AI SDLC](#open-ai-sdlc)
+  - [Why OpenAI Built Symphony and Gave It Away for Free](#why-openai-built-symphony-and-gave-it-away-for-free)
+  - [Remote connections codex](#remote-connections-codex)
   - [Configuration and profiles](#configuration-and-profiles)
     - [Code snippet](#code-snippet)
     - [Use for](#use-for)
@@ -106,6 +109,66 @@
     - [Use for](#use-for-20)
     - [Not for](#not-for-20)
     - [References](#references-20)
+
+
+## Open AI SDLC
+[link](https://webinar.openai.com/on-demand/3cc11df5-dfbf-4d9c-926e-a9ee7d0b25bd?utm_medium=email&utm_source=marketo&utm_campaign=WBR-Codex-Webinar&utm_content=follow-up&utm_term=no-show&mkt_tok=NTA0LVNXRS0zNDcAAAGeVzgw62U3hKgt5mTg_1u_c5PZye_ivJZU4aO7f9Xb4nQksPxT3MGN1vynXmGbd1mP24K7X_GzmkG1DMoR0QoIeALKGZmtSQWOtNzPtcT4)
+
+## Why OpenAI Built Symphony and Gave It Away for Free
+[video](https://www.youtube.com/watch?v=n8qDKMPpLXc&t=379s)
+
+orchestrates long-running coding agents by connecting them to your issue tracker like Linear
+
+
+ workflow.md file example:
+
+```yaml
+tracker:
+  kind: linear
+  endpoint: https://api.linear.app/graphql
+  api_key: $LINEAR_API_KEY
+  project_slug: symphony-esd1dd02fbod
+  required_labels: []
+  active_states:
+    - Todo
+    - In Progress
+  terminal_states:
+    - Closed
+    - Cancelled
+    - Cancelled
+    - Duplicate
+    - Done
+
+polling:
+  interval_ms: 10000
+
+workspace:
+  root: ./workspaces
+
+hooks:
+  after_create: |
+    git clone https://github.com/ugentrand/agentfs.md.git .
+
+agent:
+  max_concurrent_agents: 1
+  max_turns: 20
+  max_retry_backoff_ms: 3000000
+
+codex:
+  command: codex exec --json --sandbox workspace-write --skip-git-repo-check -
+  approval_policy: never
+  thread_sandbox: workspace-write
+  turn_timeout_ms: 3600000
+  read_timeout_ms: 5000
+  stall_timeout_ms: 300000
+```
+
+This is a YAML configuration file for an agent/workflow system with Linear issue tracking integration, agent execution limits, and workspace settings.
+
+Alternate:
+Multica 
+
+## Remote connections codex
 
 
 
