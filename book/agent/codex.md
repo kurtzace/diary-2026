@@ -4,6 +4,9 @@
   - [Open AI SDLC](#open-ai-sdlc)
   - [Why OpenAI Built Symphony and Gave It Away for Free](#why-openai-built-symphony-and-gave-it-away-for-free)
   - [Remote connections codex](#remote-connections-codex)
+  - [Workflows](#workflows)
+    - [Context](#context)
+      - [Agents.md](#agentsmd)
   - [Configuration and profiles](#configuration-and-profiles)
     - [Code snippet](#code-snippet)
     - [Use for](#use-for)
@@ -171,6 +174,42 @@ Multica
 ## Remote connections codex
 
 
+## Workflows
+- Goal
+- Context pointer
+- Constrains
+- Done when
+
+### Context
+#### Agents.md
+1. start
+- repo map
+- Setup and commands
+2. build
+- How to build, inspect tests before editing, more than 2 services - plan
+- Serviuce abstractions
+- shared UI
+- migrations to be backward
+3. Finish
+- lint
+- type check, tests
+- Verify ui in browser
+- Review  for unrelated changes
+4. Apprivals and escalations
+- edit API
+- approvals in auth flow
+- stop on sec flaw
+
+Layer Agents.md
+folder sp
+
+and Agents.override.md
+
+top ~/.codex/..
+
+and repo specific
+
+and folder specific
 
 ## Configuration and profiles
 
@@ -198,6 +237,8 @@ model_reasoning_effort = "medium"
 ```bash
 codex --profile work
 ```
+
+or ~/.codex/deep-review.config.toml
 
 ### Use for
 
