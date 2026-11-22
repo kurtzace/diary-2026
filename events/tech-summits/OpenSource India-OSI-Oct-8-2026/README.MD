@@ -96,9 +96,13 @@ Open Source India (OSI) is organized annually by Open Source For You (OSFY/EFY),
 
 ## Sleepers Worth a Second Look
 
-Two stalls, easy to miss between the main-stage talks:
+A few stalls, easy to miss between the main-stage talks:
 
 **Feluda** (github.com/anistark/feluda) — a license-compliance scanner built by Bangalore-based developer Anirudha ("anistark"), who's also active in the Python India / BangPypers community. It's a Rust CLI that scans dependencies across nearly a dozen language ecosystems, flags licenses that are legally risky for your project, and generates an SBOM (software bill of materials) in SPDX or CycloneDX format — plus NOTICE files, and it plugs into CI/CD (GitHub Actions, Jenkins, GitHub Advanced Security/SARIF). If your legal team still does license review by hand, this is the tool that makes that unnecessary.
+
+**CHAAR** (chaar.ai, by sixtythreelabs) — a remote agent-development environment: it lets you kick off AI coding agents (Claude Agent, Codex CLI, Gemini CLI, GitHub Copilot, Cursor, and anything else speaking the Agent Client Protocol) on a cloud box or spare machine, then monitor and approve them from your laptop or phone without setting up a VPN or opening ports. Closing your laptop doesn't kill the agent's run, sessions sync across devices, and approval requests can be answered straight from a lock-screen notification. A fairly specific, practical answer to "my coding agent is still running, how do I check on it from my phone."
+
+**Nasiko** (nasiko.com) — pitched as an "open runtime for agents," this sits between your AI agents and whatever models/tools they call, so you can actually see what they're doing and what it's costing. It claims a 42% cut in input tokens through compressing tool outputs and roughly 40% lower cost per correct answer, plus runtime controls to allow/block/require-approval on specific tool calls and identity-based access for MCP connections. There's also a model-routing layer that picks the most cost-effective provider per task across a single API. Free tier available, no credit card required; paid tiers run $20/month individual or $99/month per team. Logoed customers listed on the site include Google, Microsoft, IBM, Oracle, and Boeing — worth a grain of salt on a startup's own homepage, but a signal of who they're chasing.
 
 **FCOOS Technologies and Gramosoft** — two smaller consultancy booths worth a mention for contrast rather than a deep dive. FCOOS pitches "secure, open, future-ready" IT infrastructure (pfSense/OPNsense firewalls, NAS/backup, Google Workspace/ERPNext integration) — the unglamorous but necessary open-source-powered IT-services end of the ecosystem. Gramosoft, by contrast, was a broader "we do everything" dev shop (GenAI, RPA, web scraping, Oracle core banking) — less a product than a staffing pitch, and a useful reminder that not every booth at an open-source conference is actually about open source.
 
