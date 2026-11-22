@@ -1,0 +1,41 @@
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# --- Python Bytecode & Caches ---
+__pycache__/
+*.py[codz]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Virtual Environments & Secrets ---
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# --- Build, Packaging & Distribution ---
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# --- Testing & Coverage ---
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+coverage.xml
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
