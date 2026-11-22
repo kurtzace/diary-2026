@@ -106,6 +106,3 @@ Two stalls, easy to miss between the main-stage talks:
 
 Already led with it, but it's worth restating as the single idea to take away: Pavel Sushin's framing that ETL, interactive analytics, and LLM pre-training can run on the *same* cluster, under the *same* namespace, is the clearest argument I heard all day for why "unify your data platform" isn't just a vendor slogan — it's something a sufficiently mature open-source stack can now actually deliver.
 
----
-
-*Have a correction or want to add context to any of these talks? I'd rather get it right — leave a note.*
