@@ -1,0 +1,23 @@
+@startuml
+!theme plain
+skinparam backgroundColor #FFFFFF
+skinparam defaultFontSize 11
+skinparam padding 8
+skinparam BoxPadding 15
+
+rectangle "Trusted Operator" as TO {
+  :Maintaining IT systems;
+  :Managing cost and efficiency;
+}
+
+rectangle "Change Instigator" as CI {
+  :Improving business processes;
+  :Digital capabilities;
+}
+
+rectangle "Business Co-Creator" as BC {
+  :Business innovation;
+  :Digital capabilities;
+}
+
+@enduml
