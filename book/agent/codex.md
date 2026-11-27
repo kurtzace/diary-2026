@@ -112,6 +112,19 @@
     - [Use for](#use-for-20)
     - [Not for](#not-for-20)
     - [References](#references-20)
+- [OpenAI Codex: Advanced Workflows \& Sandboxing](#openai-codex-advanced-workflows--sandboxing)
+  - [1. Core Commands \& Customization](#1-core-commands--customization)
+  - [2. Parallel Workflows \& Sub-Agents](#2-parallel-workflows--sub-agents)
+    - [Sub-Agents (`/agent` \& Custom Agents)](#sub-agents-agent--custom-agents)
+    - [Workspace Isolation](#workspace-isolation)
+  - [3. Context Architecture (`Agents.md`)](#3-context-architecture-agentsmd)
+  - [4. Writable Roots \& Windows Sandboxing](#4-writable-roots--windows-sandboxing)
+    - [Writable Roots](#writable-roots)
+    - [Windows Sandboxing](#windows-sandboxing)
+  - [Advanced](#advanced)
+    - [Promote autonomy only when the workflow is ready](#promote-autonomy-only-when-the-workflow-is-ready)
+
+
 
 
 ## Open AI SDLC
@@ -922,3 +935,149 @@ Output: status.md with failures, owners, evidence, and escalation items
 ### References
 
 - [Agents Cookbook](https://developers.openai.com/cookbook/topic/agents)
+
+
+
+# OpenAI Codex: Advanced Workflows & Sandboxing
+
+A structured guide covering core commands, parallel agent workflows, context management, and Windows sandboxing configurations.
+
+---
+
+## 1. Core Commands & Customization
+
+| Command / Feature | Purpose & Description |
+| :--- | :--- |
+| `/goal` | Manage and track long-running workflows. |
+| `/memories` | Persist context, facts, and project state across sessions. |
+| `/hooks` | Automate actions such as formatting, linting, and checking for exposed API keys. |
+| `.rules` | Block destructive shell commands and enforce team safety policies/guardrails on risky operations. |
+| `/status-line` | Customize the CLI status bar to display patterns, decisions, and justifications. |
+
+---
+
+## 2. Parallel Workflows & Sub-Agents
+
+Codex supports delegating tasks to specialized agents and isolating workspaces to run multiple tasks concurrently.
+
+### Sub-Agents (`/agent` & Custom Agents)
+* **Concept:** Delegate specific tasks to a specialized thread.
+* **Custom Agents:** Defined in `.codex/agents/<merchandising>.toml` (e.g., `checkout.toml`).
+  * **Key Fields:** `name`, `desc` (description), and `developer instructions`.
+* **Best Practices for Parallel Execution:**
+  * Maintain clear **file ownership** and **verification checks** to prevent conflicts.
+  * Ensure `sandbox_mode = "workspace-write"` is set appropriately.
+
+### Workspace Isolation
+* **Git Worktrees:** Create isolated working directories for parallel branches:
+  ```bash
+  git worktree add <path> -b <branch>
+  ```
+* **Session Forking (`/fork`):** Create an independent Codex path branching off from your current task.
+
+---
+
+## 3. Context Architecture (`Agents.md`)
+
+Instructions and context are loaded across different lifecycle scopes depending on how they are needed:
+
+* **Always On:** Core baseline instructions loaded into every session.
+* **Scoped:** Context applied only to specific directories or file patterns.
+* **Runtime:** Dynamic state and execution context generated during the session.
+* **On Demand:** Specialized resources loaded only when explicitly invoked, including:
+  * `Skills`
+  * `Arch docs` (Architecture documentation)
+  * `ADRs` (Architecture Decision Records)
+  * `Runbooks`
+
+---
+
+## 4. Writable Roots & Windows Sandboxing
+
+### Writable Roots
+* **Purpose:** Narrow write access to specific local paths when builds require writing outside the standard `workspace-write` sandbox mode (e.g., shared local paths, caches, shims, or generated assets).
+* **Configuration (`config.toml`):**
+  ```toml
+  sandbox_mode = "workspace-write"
+  writable_roots = ["/path/to/cache", "/path/to/generated/assets"]
+  ```
+
+### Windows Sandboxing
+* **Overview:** Commands run inside a lightweight Windows sandbox with restricted read/write and network (`N/W`) access by default (blocked unless explicitly allowed).
+* **Configuration (`config.toml`):**
+  ```toml
+  [sandbox.windows]
+  writable-temp = true # or specific path
+  fs-allowlist = ["C:\\path\\to\\allowed\\dir"]
+  network = "allow" # Controls network access
+  ```
+* **Windows Execution Modes:**
+  1. `WSL` (Windows Subsystem for Linux)
+  2. `Elevated`
+  3. `Unelevated`
+
+
+## Advanced
+
+## Codex SDK
+
+**@openai/codex-sdk**
+
+Control Codex from a server-side application.
+
+![Codex SDK Architecture](images/codex-sdk.png)
+
+→ Start threads from internal tools or CI workflows
+
+→ Stream progress and return structured outputs
+
+→ Use when Codex needs to become part of a larger application workflow
+
+**How to use:** Install in the backend service that calls Codex. Use `client.run(...)` or `client.runStreamed(...)`
+
+**Use for:**
+- Embedding Codex in internal tools
+- Automating engineering tasks from backend services
+- Returning structured outputs to downstream systems
+
+**Not for:**
+- Browser/client-side execution
+- General model inference
+- Replacing sandbox or permission controls
+
+## Codex MCP Server
+
+**codex mcp-server**
+
+Let other MCP-compatible agents delegate coding work to Codex.
+
+![Codex MCP Server Architecture](images/codex-mcp-server.png)
+
+→ Expose Codex as a tool inside an agent system
+
+→ Let orchestrator agents start or continue work
+
+→ Use when Codex is one specialist inside a larger multi-agent workflow
+
+**How to use:** Run Codex as a local MCP server, then register it with your MCP client. `codex mcp-server`
+
+**Use for:**
+- Multi-agent SDLC orchestration
+- Coding specialists inside broader agent teams
+- Agents delegating implementation work to Codex
+
+**Not for:**
+- Building a Codex UI → use App Server
+- Backend automation → use the Codex SDK
+- One-off terminal work → use CLI or codex exec
+
+### Promote autonomy only when the workflow is ready
+
+Earn each step with stable inputs, bounded actions, and trusted evidence.
+
+![Promote autonomy only when the workflow is ready](images/promote-autonomy-when-ready.png)
+
+1. **Start supervised** — start with a known task, clear scope, and a human-owned outcome. _`clear goal + acceptance checks`_
+2. **Make it repeatable** — capture stable context, ownership, and repeatable verification. _`AGENTS.md + reusable workflow`_
+3. **Automate bounded work** — run predictable work with scoped access and reviewable output. _`codex exec + JSON`_
+4. **Integrate with controls** — connect signals, independent review, and explicit human approval. _`SDK -> MCP -> App Server`_
